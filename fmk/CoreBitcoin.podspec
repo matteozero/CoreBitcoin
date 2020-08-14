@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreBitcoin'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of CoreBitcoin.'
   s.description      = <<-DESC
   TODO: Add long description of the pod here.
