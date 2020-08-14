@@ -1,0 +1,29 @@
+PODS:
+  - CoreBitcoin (0.0.1):
+    - libscrypt
+    - OpenSSL-Universal
+  - libscrypt (0.0.1)
+  - OpenSSL-Universal (1.0.0):
+    - OpenSSL-Universal/Framework (= 1.0.0)
+  - OpenSSL-Universal/Framework (1.0.0)
+
+DEPENDENCIES:
+  - CoreBitcoin (from `../`)
+
+SPEC REPOS:
+  https://github.com/matteozero/Specs.git:
+    - libscrypt
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  CoreBitcoin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreBitcoin: f4ee578d5f0aa5b6c0e429029f5acb78328a2443
+  libscrypt: c5cd136603ef1c527576127a01d8db7dc879be72
+  OpenSSL-Universal: cb2324eeb714eac1e5a8ca6c3a3c039873956f72
+
+PODFILE CHECKSUM: 1c75b161dd35587352d6609b7730f1bcc2ff387e
+
+COCOAPODS: 1.9.3

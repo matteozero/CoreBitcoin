@@ -26,6 +26,9 @@ Pod::Spec.new do |s|
   
   s.vendored_frameworks = 'fmk/CoreBitcoin.framework'
   s.preserve_paths = 'fmk/CoreBitcoin.framework'
+  
+  s.dependency 'libscrypt'
+  s.dependency 'OpenSSL-Universal'
 
   # s.resource_bundles = {
   #   'CoreBitcoin' => ['CoreBitcoin/Assets/*.xcassets']
