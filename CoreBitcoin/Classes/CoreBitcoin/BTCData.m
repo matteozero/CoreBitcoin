@@ -282,6 +282,7 @@ NSMutableData* BTCSHA1(NSData* data) {
 }
 
 NSMutableData* BTCSHA256(NSData* data) {
+//    return nil;
     if (!data) return nil;
     unsigned char digest[CC_SHA256_DIGEST_LENGTH];
 
