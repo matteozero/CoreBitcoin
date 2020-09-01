@@ -7,7 +7,7 @@
 //
 
 #import "CapViewController.h"
-
+@import CoreBitcoin;
 @interface CapViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSData *data = [@"abc" dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *result = [data SHA256];
+    NSString *s = [[NSString alloc] initWithData:result encoding:NSUTF8StringEncoding];
+    NSLog(@"%@",s);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

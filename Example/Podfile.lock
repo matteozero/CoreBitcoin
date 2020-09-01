@@ -1,5 +1,5 @@
 PODS:
-  - CoreBitcoin (0.0.1):
+  - CoreBitcoin (1.0.2):
     - libscrypt
     - OpenSSL-Universal
   - libscrypt (0.0.1)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CoreBitcoin: f4ee578d5f0aa5b6c0e429029f5acb78328a2443
+  CoreBitcoin: 80a421fa4b9cbbb50dd988f71167a0650010d3bd
   libscrypt: c5cd136603ef1c527576127a01d8db7dc879be72
   OpenSSL-Universal: cb2324eeb714eac1e5a8ca6c3a3c039873956f72
 
