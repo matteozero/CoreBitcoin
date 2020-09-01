@@ -1,11 +1,11 @@
 PODS:
-  - CoreBitcoin (1.0.2):
+  - CoreBitcoin (1.0.3):
     - libscrypt
     - OpenSSL-Universal
-  - libscrypt (0.0.1)
-  - OpenSSL-Universal (1.0.0):
-    - OpenSSL-Universal/Framework (= 1.0.0)
-  - OpenSSL-Universal/Framework (1.0.0)
+  - libscrypt (1.0.0)
+  - OpenSSL-Universal (1.0.1):
+    - OpenSSL-Universal/Framework (= 1.0.1)
+  - OpenSSL-Universal/Framework (1.0.1)
 
 DEPENDENCIES:
   - CoreBitcoin (from `../`)
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CoreBitcoin: 80a421fa4b9cbbb50dd988f71167a0650010d3bd
-  libscrypt: c5cd136603ef1c527576127a01d8db7dc879be72
-  OpenSSL-Universal: cb2324eeb714eac1e5a8ca6c3a3c039873956f72
+  CoreBitcoin: d3804ddc016314b0207e3a46df5b3d1182b9336e
+  libscrypt: 6eb2410d04af789a6d002d8c95e57777563af15d
+  OpenSSL-Universal: c7d22ace9190117098651bd4478164c711bf17c1
 
 PODFILE CHECKSUM: 1c75b161dd35587352d6609b7730f1bcc2ff387e
 
